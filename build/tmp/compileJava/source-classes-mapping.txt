@@ -1,29 +1,45 @@
+com/dongwoo/study/springboot/domain/user/Role.java
+ com.dongwoo.study.springboot.domain.user.Role
+com/dongwoo/study/springboot/config/auth/CustomOAuth2UserService.java
+ com.dongwoo.study.springboot.config.auth.CustomOAuth2UserService
 com/dongwoo/study/springboot/web/dto/PostsResponseDto.java
  com.dongwoo.study.springboot.web.dto.PostsResponseDto
-com/dongwoo/study/springboot/web/dto/HelloResponseDto.java
- com.dongwoo.study.springboot.web.dto.HelloResponseDto
-com/dongwoo/study/springboot/domain/BaseTimeEntity.java
- com.dongwoo.study.springboot.domain.BaseTimeEntity
+com/dongwoo/study/springboot/service/posts/PostsService.java
+ com.dongwoo.study.springboot.service.posts.PostsService
+com/dongwoo/study/springboot/web/IndexController.java
+ com.dongwoo.study.springboot.web.IndexController
 com/dongwoo/study/springboot/web/dto/PostsListResponseDto.java
  com.dongwoo.study.springboot.web.dto.PostsListResponseDto
 com/dongwoo/study/springboot/Application.java
  com.dongwoo.study.springboot.Application
+com/dongwoo/study/springboot/domain/user/UserRepository.java
+ com.dongwoo.study.springboot.domain.user.UserRepository
+com/dongwoo/study/springboot/config/auth/dto/OAuthAttributes.java
+ com.dongwoo.study.springboot.config.auth.dto.OAuthAttributes
+ com.dongwoo.study.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/dongwoo/study/springboot/web/dto/PostsUpdateRequestDto.java
  com.dongwoo.study.springboot.web.dto.PostsUpdateRequestDto
  com.dongwoo.study.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/dongwoo/study/springboot/domain/posts/PostsRepository.java
- com.dongwoo.study.springboot.domain.posts.PostsRepository
+com/dongwoo/study/springboot/web/PostsApiController.java
+ com.dongwoo.study.springboot.web.PostsApiController
 com/dongwoo/study/springboot/web/HelloController.java
  com.dongwoo.study.springboot.web.HelloController
 com/dongwoo/study/springboot/web/dto/PostsSaveRequestDto.java
  com.dongwoo.study.springboot.web.dto.PostsSaveRequestDto
  com.dongwoo.study.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/dongwoo/study/springboot/config/auth/dto/SessionUser.java
+ com.dongwoo.study.springboot.config.auth.dto.SessionUser
 com/dongwoo/study/springboot/domain/posts/Posts.java
  com.dongwoo.study.springboot.domain.posts.Posts
  com.dongwoo.study.springboot.domain.posts.Posts$PostsBuilder
-com/dongwoo/study/springboot/web/PostsApiController.java
- com.dongwoo.study.springboot.web.PostsApiController
-com/dongwoo/study/springboot/service/posts/PostsService.java
- com.dongwoo.study.springboot.service.posts.PostsService
-com/dongwoo/study/springboot/web/IndexController.java
- com.dongwoo.study.springboot.web.IndexController
+com/dongwoo/study/springboot/domain/user/User.java
+ com.dongwoo.study.springboot.domain.user.User
+ com.dongwoo.study.springboot.domain.user.User$UserBuilder
+com/dongwoo/study/springboot/config/auth/SecurityConfig.java
+ com.dongwoo.study.springboot.config.auth.SecurityConfig
+com/dongwoo/study/springboot/domain/BaseTimeEntity.java
+ com.dongwoo.study.springboot.domain.BaseTimeEntity
+com/dongwoo/study/springboot/web/dto/HelloResponseDto.java
+ com.dongwoo.study.springboot.web.dto.HelloResponseDto
+com/dongwoo/study/springboot/domain/posts/PostsRepository.java
+ com.dongwoo.study.springboot.domain.posts.PostsRepository
