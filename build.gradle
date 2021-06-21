@@ -26,8 +26,17 @@ repositories {
 
 dependencies {
     implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-    compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.projectlombok:lombok')
+    implementation ('org.springframework.boot:spring-boot-starter-mustache')
+    implementation ('org.springframework.boot:spring-boot-starter-web')
+
+
+    implementation('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+    testImplementation('org.projectlombok:lombok')
+    testAnnotationProcessor('org.projectlombok:lombok')
+
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('com.h2database:h2')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
