@@ -1,5 +1,6 @@
 package com.dongwoo.study.springboot.web;
 
+import com.dongwoo.study.springboot.config.auth.LoginUser;
 import com.dongwoo.study.springboot.config.auth.dto.SessionUser;
 import com.dongwoo.study.springboot.service.posts.PostsService;
 import com.dongwoo.study.springboot.web.dto.PostsResponseDto;
@@ -17,14 +18,12 @@ import javax.servlet.http.HttpSession;
 public class IndexController {
 
     private final PostsService postsService;
-    private final HttpSession httpSession;
+
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model, @LoginUser SessionUser user){
 
         model.addAttribute("posts",postsService.findAllDesc());
-
-        SessionUser user = (SessionUser)httpSession.getAttribute("user");   //로그인 성공시 SessionUser를 저장 ,즉 로그인 성공시 가져옴
 
         if(user != null){   //세션에 값이 없으면 로그인 버튼이 보이도록 함, 세션에 값이 있으면 model에 userName 등록
             model.addAttribute("userName",user.getName());
