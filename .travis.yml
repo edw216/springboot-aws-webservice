@@ -16,10 +16,10 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r dongwoo-springboot-webservice *
-  - mkdir -p deploy
-  - mv dongwoo-springboot-webserivce.zip deploy/dongwoo-springboot-webservice.zip
-
+  - mkdir -p before-deploy
+  - cd before-deploy && zip -r before-deploy *
+  - cd ../ && mkdir -p deploy
+  - mv before-deploy/before-deploy.zip deploy/dongwoo-springboot-webservice.zip
 
 deploy:
   - provider: s3
@@ -31,6 +31,8 @@ deploy:
     acl: private
     local_dir: deploy
     wait-until-deployed: true
+
+
 #CI 실행 완료시 메일로 알람
 notifications:
   email:
