@@ -1,10 +1,10 @@
-com/dongwoo/study/springboot/web/PostsApiControllerTest.java
- com.dongwoo.study.springboot.web.PostsApiControllerTest
+com/dongwoo/study/springboot/web/HelloControllerTest.java
+ com.dongwoo.study.springboot.web.HelloControllerTest
 com/dongwoo/study/springboot/domain/posts/PostsRepositoryTest.java
  com.dongwoo.study.springboot.domain.posts.PostsRepositoryTest
 com/dongwoo/study/springboot/web/IndexControllerTest.java
  com.dongwoo.study.springboot.web.IndexControllerTest
+com/dongwoo/study/springboot/web/PostsApiControllerTest.java
+ com.dongwoo.study.springboot.web.PostsApiControllerTest
 com/dongwoo/study/springboot/web/dto/HelloResponseDtoTest.java
  com.dongwoo.study.springboot.web.dto.HelloResponseDtoTest
-com/dongwoo/study/springboot/web/HelloControllerTest.java
- com.dongwoo.study.springboot.web.HelloControllerTest
