@@ -16,9 +16,9 @@ script: "./gradlew clean build"
 
 before_deploy:
   - mkdir -p before-deploy
-  - cd before-deploy && zip -r before-deploy *
+  - cd before-deploy && zip -r dongwoo-springboot-webservice *
   - cd ../ && mkdir -p deploy
-  - mv before-deploy/before-deploy.zip deploy/dongwoo-springboot-webservice.zip
+  - mv before-deploy/dongwoo-springboot-webservice.zip deploy/dongwoo-springboot-webservice.zip
 
 deploy:
   - provider: s3
