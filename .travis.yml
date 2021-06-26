@@ -51,5 +51,5 @@ deploy:
 notifications:
   email:
     recipients:
-      - ehddn216@naver.com
+      - ehddn216@gmail.com
 
