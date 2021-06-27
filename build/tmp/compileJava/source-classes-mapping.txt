@@ -41,8 +41,8 @@ com/dongwoo/study/springboot/domain/posts/Posts.java
 com/dongwoo/study/springboot/domain/user/User.java
  com.dongwoo.study.springboot.domain.user.User
  com.dongwoo.study.springboot.domain.user.User$UserBuilder
-com/dongwoo/study/springboot/config/auth/SecurityConfig.java
- com.dongwoo.study.springboot.config.auth.SecurityConfig
+com/dongwoo/study/springboot/web/ProfileController.java
+ com.dongwoo.study.springboot.web.ProfileController
 com/dongwoo/study/springboot/domain/BaseTimeEntity.java
  com.dongwoo.study.springboot.domain.BaseTimeEntity
 com/dongwoo/study/springboot/web/dto/HelloResponseDto.java
@@ -51,3 +51,5 @@ com/dongwoo/study/springboot/domain/posts/PostsRepository.java
  com.dongwoo.study.springboot.domain.posts.PostsRepository
 com/dongwoo/study/springboot/config/WebConfig.java
  com.dongwoo.study.springboot.config.WebConfig
+com/dongwoo/study/springboot/config/auth/SecurityConfig.java
+ com.dongwoo.study.springboot.config.auth.SecurityConfig
